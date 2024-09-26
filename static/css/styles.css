@@ -1,0 +1,41 @@
+/* static/css/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.post {
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+}
+
+.post:last-child {
+    border-bottom: none; /* Remove the last border */
+}
+
+.post-title {
+    font-size: 1.5em;
+    color: #007BFF; /* Bootstrap primary color */
+}
+
+.post-body {
+    font-size: 1em;
+    color: #555;
+}
